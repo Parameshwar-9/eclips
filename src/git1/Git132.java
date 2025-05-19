@@ -12,8 +12,12 @@ public class Git132 {
 					temp=n[i];
 					n[i]=n[j];
 					n[j]=temp;
+					
 				}
 			}
+		}
+		for(int i=0;i<n.length;i++) {
+			System.out.println(n[i]);
 		}
 	}	
 }
