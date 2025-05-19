@@ -1,6 +1,6 @@
 package git1;
 
-public class Git132 {
+public class Git13456 {
 
 	public static void main(String[]arg) {
 	
@@ -12,15 +12,11 @@ public class Git132 {
 					temp=n[i];
 					n[i]=n[j];
 					n[j]=temp;
-					
 				}
 			}
 		}
-		for(int i=0;i<n.length;i++) {
-			System.out.println(n[i]);
-		}
-		for(int n1:n) {
-			System.out.print(n1);
-		}
+		
+			System.out.println(n[2]);
+		
 	}	
 }
