@@ -19,5 +19,8 @@ public class Git132 {
 		for(int i=0;i<n.length;i++) {
 			System.out.println(n[i]);
 		}
+		for(int n1:n) {
+			System.out.print(n1);
+		}
 	}	
 }
